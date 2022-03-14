@@ -1,0 +1,126 @@
+.SoccerStat {
+}
+
+.Logo {
+  cursor: pointer;
+}
+
+.Logo img {
+  width: 64px;
+}
+
+hr {
+  margin: 0px;
+}
+
+.SoccerStat table {
+  width: 100%;
+  background-color: lightgray;
+}
+
+.SoccerStatHeader div {
+  cursor: pointer;
+  width: 100%;
+}
+
+.SoccerStatHeader td {
+  width: 100px;
+}
+
+.SoccerStatHeader .active {
+  border-bottom: red;
+}
+
+.SoccerStatBody {
+  background-color: white;
+}
+
+.Loading img {
+  width: 64px;
+}
+
+.SoccerStatBodyCompetitions {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.competition {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid;
+}
+
+.competitionName {
+  font-weight: bold;
+  display: table;
+  margin: auto;
+}
+
+.competitionCountryName {
+  font-weight: bold;
+  color: gray;
+  display: table;
+  margin: auto;
+}
+
+.SoccerStatBodyTeams {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+
+.team {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid;
+}
+
+.teamName {
+  font-weight: bold;
+  display: table;
+  margin: auto;
+}
+
+.teamLogo {
+  font-weight: bold;
+  color: gray;
+  display: table;
+  margin: auto;
+}
+
+.teamLogo img {
+  height: 100px;
+}
+
+.matchRow td {
+  border-top: 1px solid;
+}
+
+.Pagination {
+  width: auto;
+  margin: auto;
+  padding: 10px;
+}
+
+.Pagination span {
+  width: 10px;
+  margin: 10px;
+  cursor: pointer;
+  padding: 3px;
+  border: 1px solid;
+}
+
+.Pagination span.ellipsis {
+  cursor: default;
+}
+
+.Pagination span.active {
+  font-weight: bold;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
