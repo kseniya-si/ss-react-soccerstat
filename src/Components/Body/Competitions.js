@@ -19,7 +19,7 @@ function Competitions(props) {
   const getDataFromApi = function () {
     setIsLoading(true);
     axios
-      .get("http://api.football-data.org/v2/competitions/", {
+      .get("https://api.football-data.org/v2/competitions/", {
         headers: {
           "X-Auth-Token": process.env.REACT_APP_FOOTBALL_GAMES_API_KEY,
         },

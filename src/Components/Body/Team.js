@@ -16,7 +16,7 @@ function Team(props) {
       setIsLoadingMatches(true);
       axios
         .get(
-          "http://api.football-data.org/v2/teams/" + props.team.id + "/matches",
+          "https://api.football-data.org/v2/teams/" + props.team.id + "/matches",
           {
             params: {
               dateFrom: new Date(dateFrom).toISOString().split("T")[0],

@@ -16,7 +16,7 @@ function Competition(props) {
       setIsLoadingMatches(true);
       axios
         .get(
-          "http://api.football-data.org/v2/competitions/" +
+          "https://api.football-data.org/v2/competitions/" +
             props.competition.id +
             "/matches",
           {

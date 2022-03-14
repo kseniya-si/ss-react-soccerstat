@@ -6,7 +6,7 @@ function Logo(props) {
 
   return (
     <div className="Logo">
-      <img src="/logo192.png" alt="logo" onClick={handleClick} />
+      <img src="logo192.png" alt="logo" onClick={handleClick} />
     </div>
   );
 }

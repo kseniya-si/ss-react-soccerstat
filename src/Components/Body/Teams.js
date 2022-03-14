@@ -19,7 +19,7 @@ function Teams(props) {
   const getDataFromApi = function () {
     setIsLoading(true);
     axios
-      .get("http://api.football-data.org/v2/teams/", {
+      .get("https://api.football-data.org/v2/teams/", {
         headers: {
           "X-Auth-Token": process.env.REACT_APP_FOOTBALL_GAMES_API_KEY,
         },
